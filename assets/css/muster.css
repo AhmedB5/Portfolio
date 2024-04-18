@@ -1,0 +1,70 @@
+.my-ul-nav li:hover {
+  border-bottom: solid 1px #0d6efd;
+}
+
+#mode {
+  border: none;
+  cursor: pointer;
+  height: 30px;
+}
+#drop-nav {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#myimg {
+  height: 100px;
+  margin-bottom: 450px;
+}
+.img-fluid {
+  height: 300px;
+  border-radius: 5%;
+}
+
+.about h6 {
+  font-size: 14px;
+}
+.bg {
+  background-color: #f3f8fa;
+  width: max-content;
+}
+#myskillsicona div {
+  background-color: #edf6fb;
+  border-radius: 20px;
+}
+
+#myskillsicona div img {
+  width: 120px;
+}
+
+.myproj img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top: solid 1px black;
+  height: 220px;
+}
+
+.myactive {
+  position: absolute;
+  height: 140px;
+}
+
+.mysocialmedia {
+  padding: 15px;
+  border-radius: 6px;
+  background-color: rgb(242, 244, 246);
+  width: 65% !important;
+}
+.mysocialmedia:hover {
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+  background-color: rgb(234, 235, 236);
+}
+.end {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+.footer {
+  border-top: 2px solid;
+}

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/muster.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <!-- start navbar  -->
+    <nav
+      class="sticky-top navbar navbar-expand-lg bg-light text-white p-1 ps-lg-5">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold fs-3 fs-lg-8" href="#">Ahmed-Badawy </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse d-flex-lg justify-content-end"
+          id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 me-5 mb-lg-3 mt-sm-3 my-ul-nav">
+            <li class="nav-item mt-sm-2">
+              <a
+                class="myhomebread nav-link active text-primary fs-6"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item mt-sm-2">
+              <a class="nav-link text-primary fs-6 myAboutbread" href="#"
+                >About Me</a
+              >
+            </li>
+
+            <li class="nav-item mt-sm-2">
+              <a class="nav-link text-primary fs-6 mySkillsbread" href="#"
+                >Skills</a
+              >
+            </li>
+
+            <li class="nav-item mt-sm-2">
+              <a class="nav-link text-primary fs-6 myProjectsbread" href="#"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item mt-sm-2">
+              <a class="nav-link text-primary fs-6 myContactbread" href="#"
+                >Contact</a
+              >
+            </li>
+
+            <li class="nav-item dropdown"></li>
+            <li>
+              <div class="dropdown mt-2">
+                <button
+                  id="drop-nav"
+                  class="btn btn-secondary dropdown-toggle bg-light text-dark border-0"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Mode
+                </button>
+                <ul class="dropdown-menu">
+                  <li class="ps-2 mylight" id="mode">
+                    <a class="dropdown-item" href="#"></a>Light
+                    <i class="fa-solid fa-sun text-warning"></i>
+                  </li>
+                  <hr />
+                  <li class="ps-2 mydark" id="mode">
+                    <a class="dropdown-item" href="#"></a>Dark
+                    <i class="fa-solid fa-moon"></i>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar  -->
+
+    <div class="container myContainerPro mt-5">
+      <!-- start home  -->
+
+      <div class="row d-md-flex justify-content-betwwen myh" id="myimg">
+        <div class="col-12 col-md-4 ms-3">
+          <h1>Hello 👋</h1>
+          <h4 class="mt-5">I'm Ahmed Badawy, a Software Engineer</h4>
+          <a
+            class="btn btn-primary mt-4 p-2"
+            href="https://wa.me/+2001127981884"
+            target="_blank"
+            >Get in touch</a
+          >
+        </div>
+        <div class="col-12 col-md-7 text-sm-center">
+          <img
+            class="img-fluid mt-4 mt-md-0"
+            src="assets/img/soft.png"
+            alt="" />
+        </div>
+      </div>
+      <!-- end home  -->
+
+      <!-- start about -->
+
+      <div class="about text-center">
+        <h1 class="text-primary">About Me</h1>
+        <hr />
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h6 class="mt-md-8">
+              <h6 class="mt-md-5">
+                <h4>
+                  Education:
+                  <p class="fs-6 mt-3">
+                    I am a student in the second year at the Faculty of
+                    Computers and Information
+                  </p>
+                </h4>
+                <hr />
+                <h4>
+                  Soft Skills:
+                  <p class="fs-6 mt-3">
+                    I have the ability to work collaboratively in a team, and I
+                    also have the ability to solve complex problems
+                  </p>
+                </h4>
+              </h6>
+            </h6>
+          </div>
+          <div class="col-12 col-md-4 text-md-end">
+            <img src="assets/img/handsome.png" class="img-fluid" alt="#" />
+          </div>
+        </div>
+      </div>
+      <!-- end about -->
+      <hr />
+      <!-- start skills -->
+      <div class="skills text-center mt-5">
+        <h1 class="text-primary">Skills</h1>
+        <div class="row d-flex justify-content-center ms-1" id="myskillsicona">
+          <div class="col-12 col-md-5 m-1 p-3">
+            <img class="img-fliiud" src="assets//img/java.png" alt="#" />
+            <h4 class="fs-2 mt-4">JAVA</h4>
+          </div>
+          <div class="col-12 col-md-5 m-1 p-3">
+            <img class="img-fliiud" src="assets//img/html-5.png" alt="#" />
+            <h4 class="fs-2 mt-4">HTML</h4>
+          </div>
+          <div class="col-12 col-md-5 m-1 p-3">
+            <img class="img-fliiud" src="assets//img/css.png" alt="#" />
+            <h4 class="fs-2 mt-4">CSS</h4>
+          </div>
+          <div class="col-12 col-md-5 m-1 p-3">
+            <img class="img-fliiud" src="assets//img/js.png" alt="#" />
+            <h4 class="fs-2 mt-4">JS</h4>
+          </div>
+          <div class="col-12 col-md-5 m-1 p-3">
+            <img class="img-fliiud" src="assets//img/bootstrap.png" alt="#" />
+            <h4 class="fs-2 mt-4">Bootstrap</h4>
+          </div>
+          <div class="col-12 col-md-5 m-1 p-3">
+            <img class="img-fliiud" src="assets//img/github.png" alt="#" />
+            <h4 class="fs-2 mt-4">Github</h4>
+          </div>
+        </div>
+      </div>
+      <!-- end skills -->
+      <!-- start Projects  -->
+      <hr />
+      <div class="Projects row mt-5 p-2 d-flex justify-content-evenly mb-md-5">
+        <h1 class="text-center text-primary">Projects</h1>
+
+        <!-- ########################  -->
+
+        <!-- ########################  -->
+        <div class="col-12 col-md-4 mt-5 myproj">
+          <img
+            class="card-img-top img-fliiud"
+            src="assets/img/e-commerce.png"
+            alt="#" />
+          <div class="card-body">
+            <h6 class="bg-info text-white text-center fs-5 p-3">E-commerce</h6>
+            <div
+              class="btn view btn-primary fs-5 p-3 text-white d-flex justify-content-center">
+              <a
+                class="text-white fs-3 text-decoration-none"
+                href="https://ahmedb5.github.io/e-commerce2/"
+                target="_blank">
+                view
+              </a>
+              <i class="bi bi-eye-fill ms-2 mt-1 fs-4"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-5 myproj">
+          <img
+            class="card-img-top img-fliiud"
+            src="assets/img/to-do list.png"
+            alt="#" />
+          <div class="card-body">
+            <h6 class="bg-info text-white text-center fs-5 p-3">To-Do List</h6>
+            <div
+              class="btn view btn-primary fs-5 p-3 text-white d-flex justify-content-center">
+              <a
+                class="text-white fs-3 text-decoration-none"
+                href="https://ahmedb5.github.io/To-Do_List/"
+                target="_blank">
+                view
+              </a>
+              <i class="bi bi-eye-fill ms-2 mt-1 fs-4"></i>
+            </div>
+          </div>
+        </div>
+        <!-- ########################  -->
+
+        <!-- ########################  -->
+        <div class="col-12 col-md-4 mt-5 myproj">
+          <img
+            class="card-img-top img-fliiud"
+            src="assets/img/Screenshot (338).png"
+            alt="#" />
+          <div class="card-body">
+            <h6 class="bg-info text-white text-center fs-5 p-3">Weather APP</h6>
+            <div
+              class="btn view btn-primary fs-5 p-3 text-white d-flex justify-content-center">
+              <a
+                class="text-white fs-3 text-decoration-none"
+                href="https://ahmedb5.github.io/Weather-App/"
+                target="_blank">
+                view
+              </a>
+              <i class="bi bi-eye-fill ms-2 mt-1 fs-4"></i>
+            </div>
+          </div>
+        </div>
+        <!-- ########################  -->
+
+        <!-- ########################  -->
+        <div class="col-12 col-md-4 mt-5 myproj">
+          <img
+            class="card-img-top img-fliiud"
+            src="assets/img/Crud.png"
+            alt="#" />
+          <div class="card-body">
+            <h6 class="bg-info text-white text-center fs-5 p-3">CRUD</h6>
+
+            <div
+              class="btn view btn-primary fs-5 p-3 text-white d-flex justify-content-center">
+              <a
+                class="text-white fs-3 text-decoration-none"
+                href="https://ahmedb5.github.io/CRUD/"
+                target="_blank">
+                view
+              </a>
+              <i class="bi bi-eye-fill ms-2 mt-1 fs-4"></i>
+            </div>
+          </div>
+        </div>
+        <!-- ########################  -->
+
+        <!-- ########################  -->
+        <div class="col-12 col-md-4 mt-5 myproj">
+          <img
+            class="card-img-top img-fliiud"
+            src="assets/img/bondi.png"
+            alt="#" />
+          <div class="card-body">
+            <h6 class="bg-info text-white text-center fs-5 p-3">Bondi</h6>
+            <div
+              class="btn view btn-primary fs-5 p-3 text-white d-flex justify-content-center">
+              <a
+                class="text-white fs-3 text-decoration-none"
+                href="https://ahmedb5.github.io/bondi/"
+                target="_blank">
+                view
+              </a>
+              <i class="bi bi-eye-fill ms-2 mt-1 fs-4"></i>
+            </div>
+          </div>
+        </div>
+        <!-- ########################  -->
+
+        <!-- ########################  -->
+
+        <div class="col-12 col-md-4 mt-5 myproj">
+          <img
+            class="card-img-top img-fliiud"
+            src="assets/img/html,css.png"
+            alt="#" />
+          <div class="card-body">
+            <h6 class="bg-info text-white text-center fs-5 p-3">Design</h6>
+            <div
+              class="btn view btn-primary fs-5 p-3 text-white d-flex justify-content-center">
+              <a
+                class="text-white fs-3 text-decoration-none"
+                href="https://ahmedb5.github.io/project-1-Html-Css/"
+                target="_blank">
+                view
+              </a>
+              <i class="bi bi-eye-fill ms-2 mt-1 fs-4"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ens Projects  -->
+
+      <!-- start contact  -->
+      <hr />
+      <h1 class="contact text-primary text-center mt-5 mb-5">Contact</h1>
+    </div>
+
+    <div class="row d-flex justify-content-center mysoci">
+      <a
+        class="col-6 col-sm-12 w-75 text-center text-dark mysocialmedia text-decoration-none fs-3"
+        href="https://github.com/AhmedB5"
+        >Github<i class="bi bi-github ms-3"> </i
+      ></a>
+
+      <a
+        class="col-6 col-sm-12 w-75 mt-3 text-center text-dark mysocialmedia text-decoration-none fs-3"
+        href="https://www.instagram.com/ahmedbad88?igsh=OHIwdG4yY2Q4dGJp"
+        >Instagram<i class="bi bi-instagram ms-3 text-danger"> </i
+      ></a>
+
+      <a
+        class="col-6 col-sm-12 w-75 mt-3 text-center text-dark mysocialmedia text-decoration-none fs-3"
+        href="https://www.linkedin.com/in/ahmed-badawy-18275324b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        >Linkedin<i class="bi bi-linkedin ms-3 text-primary"></i>
+      </a>
+
+      <a
+        class="col-6 col-sm-12 w-75 mt-3 text-center text-dark mysocialmedia text-decoration-none fs-3"
+        href="https://www.facebook.com/profile.php?id=100036874245401&mibextid=ZbWKwL"
+        >Facebook <i class="bi bi-facebook ms-3 text-primary"></i
+      ></a>
+
+      <a
+        class="col-6 col-sm-12 w-75 mt-3 text-center text-dark mysocialmedia text-decoration-none fs-3"
+        href="https://wa.me/+2001127981884"
+        >Watsapp <i class="bi bi-whatsapp ms-3 text-success"></i
+      ></a>
+
+      <a
+        class="col-6 col-sm-12 w-75 mt-3 text-center text-dark mysocialmedia text-decoration-none fs-3"
+        href="https://x.com/ahmedba04901696?t=CjrnIFSGIwTJLfFvO9YfPw&s=09"
+        >twitter<img
+          class="img-fliiud end ms-2 mt-2"
+          src="assets/img/twitter-logo-1788039_640.jpg"
+          alt=""
+      /></a>
+    </div>
+    <!-- end contact  -->
+    <!-- start footer -->
+
+    <div class="footer bg-dark text-white p-5 text-center mt-4">
+      <h2>Good Luck</h2>
+    </div>
+    <!-- end footer -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
